@@ -1,0 +1,22 @@
+.app {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    margin-top: 20px;
+    display: flex;
+    align-items: left;
+}
+
+.input__wrapper {
+    display: flex;
+    width: 725px;
+    justify-content: space-between;
+}
+
+.select-wrapper {
+    margin-top: 30px;
+}
+

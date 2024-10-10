@@ -1,0 +1,41 @@
+.calendarCreator {
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+    padding: 13px 8px;
+    position: relative;
+    z-index: 999;
+}
+
+.calendarCreator__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calendarCreator__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.calendarCreator__add {
+    border: none;
+    width: 13px;
+    height: 13px;
+    background: url('../../assets/icons/plus.png') center no-repeat;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.calendarCreator__add:hover {
+    scale: 1.1;
+}
+
+
+.calendarCreator__list {
+    list-style: none;
+    padding-left: 0;
+}

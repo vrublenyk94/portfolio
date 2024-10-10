@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.colorpicker-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.colorpicker {
+    width: 230px;
+    height: 70px;
+    border: 1px solid rgb(222, 223, 229);
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 4px; 
+    justify-items: center;
+    align-items: center;
+    cursor:pointer;
+}
+
+
+.color {
+    width: 12px;
+    height: 12px;
+    border-radius: 4px;
+}
+
+.color:hover {
+    outline: 1px solid black;
+    outline-offset: 1px;
+}

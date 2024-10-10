@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.toast {
+    font-family: 'Roboto', sans-serif;
+    width: 242px;
+    height: 52px;
+    border-radius: 8px 8px 0px 0px;
+    box-shadow: 0px 16px 50px 0px rgba(0, 0, 0, 0.24);
+    background: rgb(255, 255, 255);
+    display: flex;
+    padding: 16px 14px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toast-title {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.toast-close {
+    border: none;
+    background-color: transparent;
+    cursor:pointer;
+    background: url('./close.svg') center no-repeat;
+    width: 10px;
+    height: 10px;
+}

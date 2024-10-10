@@ -1,0 +1,9 @@
+.web-calendar {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(242, 245, 247);
+}
+
+.web-calendar__wrapper {
+  display: flex;
+}

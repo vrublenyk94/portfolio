@@ -1,0 +1,18 @@
+.remover {
+    margin-top: 30px;
+    width: 300px;
+    height: 36px;
+    border: 1px solid rgb(222, 223, 229);
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    background: url('../../assets/icons/delete.svg') no-repeat;
+    background-position-x: 90px;
+    background-position-y: 9.5px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.remover:hover {
+    scale: 1.1;
+}

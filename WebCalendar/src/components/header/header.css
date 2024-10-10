@@ -1,0 +1,94 @@
+.header {
+    width: 100%;
+    height: 80px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    padding: 0 60px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header__wrapper--l {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    width: 203px;
+    height: 40px;
+    background: url('../../assets/Logo.png');
+    margin-right: 25px;
+}
+
+.header__wrapper {
+    margin: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+}
+
+.header__btn {
+    height: 36px;
+    width: 36px;
+    background-color:transparent;
+    border: 1px solid rgb(222, 223, 229);
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.header__btn:hover {
+    scale: 1.1;
+}
+
+.header__btn--prev {
+    background: url('../../assets/icons/prev.svg') center no-repeat;
+}
+
+.header__btn--next {
+    background: url('../../assets/icons/next.svg') center no-repeat;
+}
+
+.header__date {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.header__username {
+    margin: 0px 10px 0px 32px;
+}
+
+.header__userlogo {
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    background-size: 10%;
+    cursor: pointer;
+    position: relative;
+}
+
+.logout {
+    padding: 12px 16px;
+    position: absolute;
+    width: 105px;
+    height: 36px;
+    border: 1px solid rgb(222, 224, 229);
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px 0px rgba(49, 49, 49, 0.1);
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    bottom: -40px;
+    left: -28px;
+    cursor: pointer;
+}
+
+.logout__icon {
+    background: url('../../assets/icons/logout.svg') center no-repeat;
+    height: 12px;
+    width: 12px;
+    margin-right: 5px;
+}

@@ -1,0 +1,76 @@
+.task {
+    display: flex;
+    height: 48px;
+    align-items: center;
+    border: 1px solid rgb(222, 223, 229);
+    border-radius: 8px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+}
+
+.task:hover {
+    background: rgb(239, 239, 239);
+}
+
+.task__label {
+    width: 30px;
+    margin-right: 16px;
+    border-right: 1px solid rgb(222, 223, 229);
+}
+
+.task__checkbox {
+    margin-top: 3px;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background: rgb(242, 245, 247);
+    border: 0.5px solid black;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.task__checkbox:checked {
+    background: url('../../assets/icons/checked.svg');
+    border: none;
+}
+
+.task__descr {
+    width: 500px;
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.task__btns {
+    margin-left: 40px;
+    width: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.task__btn {
+    border:none;
+    cursor:pointer;
+    transition: .3s;
+    width: 12px;
+    height: 13.33px;
+    display: none;
+}
+
+.task__btn:hover {
+    scale:1.1
+}
+
+.task__btn--delete {
+    background: url('../../assets/icons/delete.svg') center no-repeat;
+}
+
+.task__btn--edit {
+    background: url('../../assets/icons/edit.svg') center no-repeat;
+}
+
+.task__btn--confirm {
+    background: url('../../assets/icons/confirm.svg') center no-repeat;
+}

@@ -1,0 +1,47 @@
+.form__wrapper {
+    position: relative;
+    margin-top: 15px;
+    height: 50px;
+    display: flex;
+    align-items:baseline;
+    justify-content: space-around;
+}
+
+.form__wrapper--btn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+.form__wrapper--checkbox {
+    justify-content: space-between;
+    width: 300px;
+    margin-left: 29px;
+}
+
+.form-icon {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    height: 16px;
+    width: 16px;
+}
+
+.form-icon--text {
+    background: url('../../assets/icons/T.svg') center no-repeat;
+}
+
+.form-icon--date {
+    background: url('../../assets/icons/time.svg') center no-repeat;
+    top: 15px;
+}
+
+.form-icon--calendar {
+    top: 12px;
+    background: url('../../assets/icons/calendar.svg') center no-repeat;
+}
+
+.form-icon--descr {
+    background: url('../../assets/icons/description.svg') center no-repeat;
+}
+

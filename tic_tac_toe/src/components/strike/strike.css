@@ -1,0 +1,64 @@
+.strike {
+    position: absolute;
+    background: #fff;
+    height: 6px;
+    width: 280px;
+    z-index: 2;
+    border-radius: 3px;
+    display: none;
+}
+
+.strike-row-1 {
+    display: block;
+    top: 140px;
+    left: 436px;
+}
+
+.strike-row-2 {
+    display: block;
+    top: 230px;
+    left: 436px;
+}
+
+.strike-row-3 {
+    display: block;
+    top: 320px;
+    left: 436px;
+}
+
+.strike-column-1 {
+    display: block;
+    rotate: 90deg;
+    left: 346px;
+    top: 229px;
+}
+
+.strike-column-2 {
+    display: block;
+    rotate: 90deg;
+    left: 436px;
+    top: 229px;
+}
+
+.strike-column-3 {
+    display: block;
+    rotate: 90deg;
+    left: 526px;
+    top: 229px;
+}
+
+.strike-diagonal-1 {
+    display: block;
+    rotate: 45deg;
+    left: 400px;
+    top: 229px;
+    width: 350px;
+}
+
+.strike-diagonal-2 {
+    display: block;
+    rotate: 135deg;
+    left: 400px;
+    top: 229px;
+    width: 350px;
+}

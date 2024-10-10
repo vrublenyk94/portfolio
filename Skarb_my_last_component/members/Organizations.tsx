@@ -1,0 +1,9 @@
+import React from "react";
+import MembersPage from "src/pages/members/components/membersPage/MembersPage";
+import { EMembersPageType } from "src/types/members";
+
+export const Organizations = () => {
+  return <MembersPage memberPage={EMembersPageType.ORGANIZATIONS} />;
+};
+
+export default Organizations;

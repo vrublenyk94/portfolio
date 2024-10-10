@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.modal {
+    font-family: 'Roboto', sans-serif;
+    width: 488px;
+    height: 234px; 
+    border-radius: 8px;
+    box-shadow: 0px 16px 50px 0px rgba(0, 0, 0, 0.24); 
+    font-size: 16px;
+    font-weight: 400;
+    padding: 16px;
+    position: relative;
+}
+
+.modal__title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.modal__close {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    right: 20px;
+    top: 25px;
+    border: none;
+    cursor: pointer;
+    background: url('./close.svg') center no-repeat;
+}
+
+.modal__descr {
+    margin-top: 16px;
+    border-top: 1px solid  rgb(222, 223, 229);
+    border-radius: 1px;
+    padding-top: 16px;
+}

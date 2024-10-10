@@ -1,0 +1,78 @@
+.calendar__event {
+    padding: 5px 10px;
+    position:absolute;
+    border-radius: 4px;
+    width: 100%;
+    color: #000;
+    z-index: 1000;
+    transition: .4s;
+} 
+
+.btn__wrapper-edit {
+    position: absolute;
+    top: 22px;
+    right: 60px;
+    display: flex;
+    width: 52px;
+    justify-content: space-between;
+}
+
+.button__event-modal {
+    width: 16px;
+    height: 16px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.button__event-modal--edit {
+    background: url('../../assets/icons/edit.svg') center no-repeat;
+}
+
+.button__event-modal--delete {
+    background: url('../../assets/icons/delete.svg') center no-repeat;
+}
+
+.event-info__wrapper {
+    margin-bottom: 25px;
+    display: flex;
+}
+
+.event-info__wrapper--date {
+    min-height: 40px;
+}
+
+.event-info__icon {
+    height: 16px;
+    width: 16px;
+    margin-right: 20px;
+}
+
+.event__info-icon--text {
+    background: url('../../assets/icons/T.svg') center no-repeat;
+}
+
+.event__info-icon--time {
+    background: url('../../assets/icons/time.svg') center no-repeat;
+}
+
+.event__info-icon--calendar {
+    background: url('../../assets/icons/calendar.svg') center no-repeat;
+}
+
+.event__info-icon--descr {
+    background: url('../../assets/icons/description.svg') center no-repeat;
+}
+
+.event-info__calendar-color {
+    margin-top: 3px;
+    width: 12px;
+    height: 12px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+p {
+    margin: 0;
+    margin-top: 4px;
+}

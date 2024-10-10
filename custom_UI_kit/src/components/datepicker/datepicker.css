@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.datepicker {
+    font-family: 'Roboto', sans-serif;
+    width: 240px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+    padding: 14px 8px;
+}
+
+.datepicker__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.datepicker__buttons {
+    width: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.datepicker__btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    transition: .3s;
+}
+
+.datepicker__btn:hover {
+    scale:1.1
+}
+
+.datepicker__btn--prev {
+    background: url('./prev.svg') center no-repeat
+}
+
+.datepicker__btn--next {
+    background: url('./next.svg') center no-repeat
+}
+
+.datepicker__current-month {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.datepicker__calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.datepicker__weekdays {
+    display: contents;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.datepicker__week {
+    display: contents;
+}
+
+.datepicker__day {
+    width: 24px;
+    height: 24px;   
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+.datepicker__day.other {
+    color: #888;
+}
+
+.datepicker__day.selected {
+    border-radius: 8px;
+    background: #ddd;
+}
+
+.datepicker__day:hover {
+    background: rgb(0, 174, 28);
+    color: #fff;
+}

@@ -1,0 +1,52 @@
+.calendarCreator__item {
+    min-height: 30px;
+    margin: 4px 0;
+    display: flex;
+    padding-left: 8px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.calendarCreator__item:hover{
+    border-radius: 8px;
+    background: rgb(246, 247, 248);
+}
+
+.calendarCreator__item-btn {
+    border:none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: .3s;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.calendarCreator__item-wrapper {
+    display: flex;
+}
+
+.calendarCreator__item-btn:hover {
+    scale: 1.1;
+}
+
+.calendarCreator__item-btn--delete {
+    background: url('../../assets/icons/delete.svg') center no-repeat;
+}
+
+.calendarCreator__item-btn--edit {
+    background: url('../../assets/icons/edit.svg') center no-repeat;
+}
+
+.deleteModal-wrapper {
+    margin-top: 10px;
+    display: flex;
+    align-items:center;
+    justify-content: end;
+    width: 100%;
+}
+
+.margin {
+    margin: 0 5px;
+}

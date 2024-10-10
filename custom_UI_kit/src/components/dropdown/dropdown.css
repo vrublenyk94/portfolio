@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.dropdown {
+    font-family: 'Roboto', sans-serif;
+    width: 80px;
+    height: 18px;
+    border: 1px solid rgb(222, 223, 229);
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    background: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 400;
+    padding: 9px;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    cursor: pointer;
+}
+
+.dropdown:hover {
+    box-shadow: 0px 1px 2px 0px rgba(69, 69, 69, 0.25);
+    background: rgb(239, 239, 239);
+}
+
+.dropdown:focus {
+    box-shadow: 0px 1px 2px 0px rgba(69, 69, 69, 0.25);
+    background: rgb(224, 224, 224);
+}
+
+.dropdown-icon {
+    margin-top: 7px;
+    width: 9.33px;
+    height: 5.33px;
+    background: url('./dropdown.svg') center no-repeat
+}
+
+.dropdown-options {
+    visibility: hidden;
+    font-family: 'Roboto', sans-serif;
+    display: none;
+    margin: 0;
+    margin-top: 3px;
+    padding: 0;
+    list-style: none;
+    width: 80px;
+    border: 1px solid rgb(222, 224, 229);
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px 0px rgba(49, 49, 49, 0.1);
+    background: rgb(255, 255, 255);
+}
+
+.dropdown-options.visible {
+    display: block;
+    visibility: visible;
+}
+
+.dropdown-option {
+    height: 18px;
+    padding: 9px;
+    cursor: pointer;
+}
+
+.dropdown-option:hover {
+    background: rgb(246, 246, 246);
+}
+
+.dropdown-option:focus {
+    background: rgb(227, 227, 227);
+}
+

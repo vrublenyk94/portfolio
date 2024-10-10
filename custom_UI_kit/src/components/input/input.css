@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.label {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    font-weight: 700;
+    width: 300px;
+}
+
+.label.disabled {
+    color:rgb(115, 115, 115);
+}
+
+.textarea {
+    resize: none;
+    border: none;
+    border-bottom: 1px solid rgb(115, 115, 115);
+    padding: 10px 0;
+    font-family: 'Roboto', serif;
+    outline: none;
+}
+
+.input {
+    outline:none;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid rgb(115, 115, 115);
+    width: 300px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.input:focus {
+    border-bottom:2px solid rgb(50, 55, 73);;
+
+}
+
+.input.disabled {
+    border-bottom:1px solid rgb(115, 115, 115);
+}
+
+.input.input-error {
+    border-bottom: 1px solid rgb(255, 86, 32);
+}
+
+.error {
+    display: none;
+    color:rgb(255, 86, 32);
+}
+
+.password-icon {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: url('./pass.svg') center no-repeat;
+    right: 0;
+    top:23px;
+}

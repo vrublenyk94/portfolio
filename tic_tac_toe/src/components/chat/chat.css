@@ -1,0 +1,116 @@
+.chat {
+    width: 640px;
+    height: 484px;
+    border: 1px solid rgb(69, 69, 69);
+    border-radius: 8px;
+    background: rgb(49, 49, 49);
+    margin-top: 40px;
+}
+
+.chat__header {
+    height: 50px;
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: start;
+    padding: 0 10px;
+}
+
+.chat__header span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 16px;
+}
+
+.chat__header-img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.chat__body {
+    position: relative;
+    padding: 60px 20px 20px 20px;
+}
+
+.chat__area {
+    height: 250px;
+    width: 100%;
+}
+
+.chat__message {
+    display: flex;
+    min-height: 48px;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;  
+}
+
+.mine__message {
+    justify-content: flex-end;
+}
+
+.friends__message {
+    justify-content: flex-start;
+}
+
+.message__cover {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 10px;
+    position: relative;
+    min-width: 30px;
+    min-height: 48px;
+    padding: 4px 12px;
+    border-radius: 12px;
+}
+
+.message__cover-time{
+    text-align: right;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.message__cover--green {
+    background: rgb(0, 174, 28);
+}
+
+.message__cover--grey {
+    background: rgb(115, 115, 115);
+}
+
+.chat__input {
+    margin-top: 30px;
+    width: 600px;
+    height: 56px;
+    border: 1px solid rgb(139, 139, 139);
+    border-radius: 8px; 
+    background: rgb(66, 66, 66);
+    padding: 18px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+}
+
+.chat__label {
+    position: relative;
+}
+
+.chat__input-send {
+    width: 19.5px;
+    height: 19.5px;
+    border: none;
+    background: url('../../assets/send.svg') no-repeat;
+    background-color: transparent;
+    position: absolute;
+    top: 15px;
+    right: 18px;
+    cursor: pointer
+}
+

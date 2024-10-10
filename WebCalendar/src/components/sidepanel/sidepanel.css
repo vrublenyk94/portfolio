@@ -1,0 +1,8 @@
+.sidepanel {
+    padding: 30px 20px 0 60px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
